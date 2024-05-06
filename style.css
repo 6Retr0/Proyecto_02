@@ -50,7 +50,7 @@ button:hover {
   background-color: var(--secondary-color);
 }
 
-/* Estilo */
+/* Estilo de elementos */
 
 header {
   width: auto;
@@ -101,6 +101,9 @@ ul {
 }
 
 footer {
+  background-color: var(--primary-color);
+  width: auto;
+  height: auto;
   border: dotted;
   border-radius: 6px;
   margin: 12px;
@@ -109,10 +112,3 @@ footer {
   position: sticky;
   bottom: 0;
 }
-
-/* @media (max-width: 640px) {
-  .sidebar {
-    position: relative;
-    left: 68%;
-  }
-} */
